@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebaseflutter/sign_in.dart';
 import 'package:firebaseflutter/first_screen.dart';
 
+//MI-2F Jihan Rahadatul Aisy (2031710034)
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'login_page.dart';
 
+//MI-2F Jihan Rahadatul Aisy (2031710034)
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

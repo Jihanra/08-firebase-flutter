@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebaseflutter/login_page.dart';
 import 'package:firebaseflutter/sign_in.dart';
 
+//MI-2F Jihan Rahadatul Aisy (2031710034)
 class FirstScreen extends StatelessWidget {
   const FirstScreen({Key key}) : super(key: key);
 
