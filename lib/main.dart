@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'Halaman/login_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 //MI-2F Jihan Rahadatul Aisy (2031710034)
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
